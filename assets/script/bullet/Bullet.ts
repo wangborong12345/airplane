@@ -13,7 +13,7 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
  *
  */
-
+const OUTOFRANGE = 50
 @ccclass('Bullet')
 export class Bullet extends Component {
 
@@ -27,7 +27,13 @@ export class Bullet extends Component {
     update(deltaTime: number) {
         // pos 是向量，包含子弹的移动方向
         const pos = this.node.getPosition()
-        this.node.setPosition(pos.x, pos.y, pos.z - this.bulletSpeed)
+        // 移动距离
+        let moveLength = pos.z - this.bulletSpeed
+        this.node.setPosition(pos.x, pos.y, moveLength)
+        if (moveLength > OUTOFRANGE) {
+            console.log('子弹销毁')
+            this.node.destroy()
+        }
     }
 
 

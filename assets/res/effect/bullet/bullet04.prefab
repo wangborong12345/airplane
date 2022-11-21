@@ -12,7 +12,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bullet04",
+    "_name": "Bullet04",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -31,7 +31,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -8.461,
+      "x": 6.367,
       "y": 0,
       "z": 12.315
     },
@@ -173,7 +173,7 @@
     "__prefab": {
       "__id__": 8
     },
-    "bulletSpeed": 0,
+    "bulletSpeed": 1,
     "_id": ""
   },
   {
