@@ -25,7 +25,7 @@ export class PlayerMovement extends Component {
 
 
     update(deltaTime: number) {
-        // [4]
+        
     }
 
     onDestroy() {

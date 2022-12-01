@@ -55,7 +55,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "39d9azQ25Gbp8ITtv/BqtN"
   },
   {
     "__type__": "cc.Node",
@@ -201,7 +201,7 @@
     "__prefab": {
       "__id__": 13
     },
-    "_id": ""
+    "_id": "65PreR2KZHrLoTX5J0txq/"
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -213,7 +213,8 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "d674df9d-813c-4a34-bf5f-2a13bcfb3202",
+      "__expectedType__": "cc.Prefab"
     },
     "fileId": "59j8Dk/nlEl7BKwWRJ3wz8"
   }

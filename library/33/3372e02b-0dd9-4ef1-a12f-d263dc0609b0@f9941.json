@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightBoxBlood02b",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 149,
+      "height": 6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 149,
+      "height": 6
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3372e02b-0dd9-4ef1-a12f-d263dc0609b0@6c48a",
+    "packable": true
+  }
+}

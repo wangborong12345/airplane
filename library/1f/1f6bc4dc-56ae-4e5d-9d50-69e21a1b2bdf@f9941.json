@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "effectsTextures136",
+    "atlas": "",
+    "rect": {
+      "x": 19,
+      "y": 4,
+      "width": 106,
+      "height": 118
+    },
+    "offset": {
+      "x": 8,
+      "y": 1
+    },
+    "originalSize": {
+      "width": 128,
+      "height": 128
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1f6bc4dc-56ae-4e5d-9d50-69e21a1b2bdf@6c48a",
+    "packable": true
+  }
+}
